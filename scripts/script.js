@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
 
     if (username === "admin@metrocityrp.eu" && password === "4HthLBF5wl(@czJ6+}!qpav8") {
-        window.location.assign("../loading-screen/loading.html")
+        window.location.assign("loading-screen/loading.html")
     } else {
         loginErrorMsg.style.opacity = 1;
         setTimeout(function () {
