@@ -1,7 +1,7 @@
 // Function to send request to TXAdmin API
 async function sendRequestToTXAdmin(endpoint, method) {
     try {
-        const response = await fetch(`http://51.195.89.221:25746/${endpoint}`, {
+        const response = await fetch(`https://panel.metrorp.site/${endpoint}`, {
             method: method,
             headers: {
                 'Content-Type': 'application/json'
